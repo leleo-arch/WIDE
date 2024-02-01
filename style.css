@@ -110,11 +110,15 @@ div {
 }
 
 img {
-    padding: 40px; 
-    max-width: 100%;
-    height: auto;
+    
+    padding: 30px;
+    width: auto;
+    margin-left: 16px;
+    margin-top: 110px;
+    display: block;
     position: absolute;
-    bottom: 30px;
+    top: 431px;
+    max-width: 90%;
 }
 
  header { display: none;
@@ -182,14 +186,14 @@ div{
    
     height: 100%;
     position: absolute;
-    left: 20px;
+    left: 5px;
 }
 
     img {
  height: 45%;
  position: absolute;
- top: 400px;
- left: 30px;
+ top: 328px;
+ left: -11px;
  max-width: 100%;
  
 
@@ -210,8 +214,22 @@ h1 {
 
 .botão {
     
+    
 }
 
 
 
+}
+
+
+@media screen and ( max-width: 375px) {
+    img {
+        height: 45%;
+        position: absolute;
+        top: 328px;
+        left: 11px;
+        max-width: 100%;
+        
+       
+       }   
 }
